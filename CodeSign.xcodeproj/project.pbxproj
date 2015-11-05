@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7181C1B1BEB210B00758507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7181C1A1BEB210B00758507 /* AppDelegate.swift */; };
+		F7181C1D1BEB210B00758507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7181C1C1BEB210B00758507 /* ViewController.swift */; };
+		F7181C1F1BEB210B00758507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7181C1E1BEB210B00758507 /* Assets.xcassets */; };
+		F7181C221BEB210C00758507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7181C201BEB210C00758507 /* Main.storyboard */; };
+		F7181C2D1BEB210C00758507 /* CodeSignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7181C2C1BEB210C00758507 /* CodeSignTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7181C291BEB210C00758507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7181C0F1BEB210B00758507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7181C161BEB210B00758507;
+			remoteInfo = CodeSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7181C171BEB210B00758507 /* CodeSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7181C1A1BEB210B00758507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7181C1C1BEB210B00758507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7181C1E1BEB210B00758507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7181C211BEB210C00758507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7181C231BEB210C00758507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7181C281BEB210C00758507 /* CodeSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7181C2C1BEB210C00758507 /* CodeSignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSignTests.swift; sourceTree = "<group>"; };
+		F7181C2E1BEB210C00758507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7181C141BEB210B00758507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7181C251BEB210C00758507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7181C0E1BEB210B00758507 = {
+			isa = PBXGroup;
+			children = (
+				F7181C191BEB210B00758507 /* CodeSign */,
+				F7181C2B1BEB210C00758507 /* CodeSignTests */,
+				F7181C181BEB210B00758507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7181C181BEB210B00758507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7181C171BEB210B00758507 /* CodeSign.app */,
+				F7181C281BEB210C00758507 /* CodeSignTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7181C191BEB210B00758507 /* CodeSign */ = {
+			isa = PBXGroup;
+			children = (
+				F7181C1A1BEB210B00758507 /* AppDelegate.swift */,
+				F7181C1C1BEB210B00758507 /* ViewController.swift */,
+				F7181C1E1BEB210B00758507 /* Assets.xcassets */,
+				F7181C201BEB210C00758507 /* Main.storyboard */,
+				F7181C231BEB210C00758507 /* Info.plist */,
+			);
+			path = CodeSign;
+			sourceTree = "<group>";
+		};
+		F7181C2B1BEB210C00758507 /* CodeSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7181C2C1BEB210C00758507 /* CodeSignTests.swift */,
+				F7181C2E1BEB210C00758507 /* Info.plist */,
+			);
+			path = CodeSignTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7181C161BEB210B00758507 /* CodeSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7181C311BEB210C00758507 /* Build configuration list for PBXNativeTarget "CodeSign" */;
+			buildPhases = (
+				F7181C131BEB210B00758507 /* Sources */,
+				F7181C141BEB210B00758507 /* Frameworks */,
+				F7181C151BEB210B00758507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeSign;
+			productName = CodeSign;
+			productReference = F7181C171BEB210B00758507 /* CodeSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7181C271BEB210C00758507 /* CodeSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7181C341BEB210C00758507 /* Build configuration list for PBXNativeTarget "CodeSignTests" */;
+			buildPhases = (
+				F7181C241BEB210C00758507 /* Sources */,
+				F7181C251BEB210C00758507 /* Frameworks */,
+				F7181C261BEB210C00758507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7181C2A1BEB210C00758507 /* PBXTargetDependency */,
+			);
+			name = CodeSignTests;
+			productName = CodeSignTests;
+			productReference = F7181C281BEB210C00758507 /* CodeSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7181C0F1BEB210B00758507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kuaiyong;
+				TargetAttributes = {
+					F7181C161BEB210B00758507 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F7181C271BEB210C00758507 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F7181C161BEB210B00758507;
+					};
+				};
+			};
+			buildConfigurationList = F7181C121BEB210B00758507 /* Build configuration list for PBXProject "CodeSign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7181C0E1BEB210B00758507;
+			productRefGroup = F7181C181BEB210B00758507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7181C161BEB210B00758507 /* CodeSign */,
+				F7181C271BEB210C00758507 /* CodeSignTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7181C151BEB210B00758507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7181C1F1BEB210B00758507 /* Assets.xcassets in Resources */,
+				F7181C221BEB210C00758507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7181C261BEB210C00758507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7181C131BEB210B00758507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7181C1D1BEB210B00758507 /* ViewController.swift in Sources */,
+				F7181C1B1BEB210B00758507 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7181C241BEB210C00758507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7181C2D1BEB210C00758507 /* CodeSignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7181C2A1BEB210C00758507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7181C161BEB210B00758507 /* CodeSign */;
+			targetProxy = F7181C291BEB210C00758507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7181C201BEB210C00758507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7181C211BEB210C00758507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7181C2F1BEB210C00758507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7181C301BEB210C00758507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7181C321BEB210C00758507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CodeSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaiyong.CodeSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7181C331BEB210C00758507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CodeSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaiyong.CodeSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7181C351BEB210C00758507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CodeSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaiyong.CodeSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSign.app/Contents/MacOS/CodeSign";
+			};
+			name = Debug;
+		};
+		F7181C361BEB210C00758507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CodeSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaiyong.CodeSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSign.app/Contents/MacOS/CodeSign";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7181C121BEB210B00758507 /* Build configuration list for PBXProject "CodeSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7181C2F1BEB210C00758507 /* Debug */,
+				F7181C301BEB210C00758507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7181C311BEB210C00758507 /* Build configuration list for PBXNativeTarget "CodeSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7181C321BEB210C00758507 /* Debug */,
+				F7181C331BEB210C00758507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7181C341BEB210C00758507 /* Build configuration list for PBXNativeTarget "CodeSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7181C351BEB210C00758507 /* Debug */,
+				F7181C361BEB210C00758507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7181C0F1BEB210B00758507 /* Project object */;
+}
