@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E795FAA3A66764283B8869E64E7296 /* Pods-CodeSignCall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47712532B852943CD65432920E84C8EA /* Pods-CodeSignCall-dummy.m */; };
+		2E23551A970806CA6A2E31033F0ADBFD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		39C67E207FA7DF352CF40B712A226218 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E70D8EB5A2EF919C10837BE60E5E60F /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		48AE42CFFC414C76EF65DA05B5CDF8F4 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 651AF3CC4A74E2782FFC1A272E10354A /* crypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		526E0935C4260A0F1CF58F8C33E2A087 /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F963DC8E3E72B1F0580D4B1F5470282 /* zip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B52E09CA28889BA6F21D0BCDD23E64C /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = E85E47FA1F949E2784497939D6E01A06 /* mztools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E5B554F5D35ED29CD2C1941578ACF67 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7277C83D82DA90B195C57CCC156DE0 /* ioapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9320D53069A84BC3EEF855DD6B8C096C /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 870E67E55037FF55797E5E4F15635493 /* mztools.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96C2D2371C41A7BF8CF38750D8997879 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C6E36FE8585EAEE976D4E1B3188BCC5 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A32CE3B88B688D722506C6F6B7EB4602 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CE69A7BD5C51F8008609F02DE3B31217 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C485A7B0048F00E50D40458235B16966 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF88C153D16425DBB67361F808484 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF9C888F99CDC32BC237FF1B8F393978 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5A48E1F826110403E2CE4F3254A45C /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D004709B2D07DDC9E0A18CF04D40A5E1 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4710CE738503B2A0889CF38E7F7C266F /* SSZipArchive-dummy.m */; };
+		D8F7AFB4057C0EBA11E61ED7719F0487 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		F3C0A4A791F57BC574082701BFE7E2C8 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = A7179634A49BB1B2D65779E68A0783A7 /* unzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60E8AEC1CC7F2887472CBD8677A8E6FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B6A6811AF870D55E386502961594D2;
+			remoteInfo = SSZipArchive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103DC12DF50B759A48C28FF40D894897 /* Pods-CodeSignCall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeSignCall-frameworks.sh"; sourceTree = "<group>"; };
+		17C6E2A1EA21A2E6510FC73B26B59863 /* libPods-CodeSignCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeSignCall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BCF88C153D16425DBB67361F808484 /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		1E70D8EB5A2EF919C10837BE60E5E60F /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		1F963DC8E3E72B1F0580D4B1F5470282 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		43DC7658FCA0FB74DF0BC4244C94E89B /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		4710CE738503B2A0889CF38E7F7C266F /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		47712532B852943CD65432920E84C8EA /* Pods-CodeSignCall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeSignCall-dummy.m"; sourceTree = "<group>"; };
+		488AE0BF8066A3D350E2215ADCB822DD /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD38898FEA7002503706F2A8A1BF048 /* Pods-CodeSignCall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeSignCall-resources.sh"; sourceTree = "<group>"; };
+		4F5A48E1F826110403E2CE4F3254A45C /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		651AF3CC4A74E2782FFC1A272E10354A /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		6FA5603E8CF16B34695D187061908C31 /* Pods-CodeSignCall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeSignCall-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D7277C83D82DA90B195C57CCC156DE0 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		870E67E55037FF55797E5E4F15635493 /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mztools.c; path = SSZipArchive/minizip/mztools.c; sourceTree = "<group>"; };
+		8C6E36FE8585EAEE976D4E1B3188BCC5 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		A7179634A49BB1B2D65779E68A0783A7 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD9448A6BBBC5730E92130762F320B3D /* Pods-CodeSignCall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeSignCall-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE69A7BD5C51F8008609F02DE3B31217 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		D4A4DDEADCB78FBFC11DE89602B72958 /* Pods-CodeSignCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeSignCall.release.xcconfig"; sourceTree = "<group>"; };
+		E85E47FA1F949E2784497939D6E01A06 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = SSZipArchive/minizip/mztools.h; sourceTree = "<group>"; };
+		EEC2627D776E234708A3940FC1BE8A4F /* Pods-CodeSignCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeSignCall.debug.xcconfig"; sourceTree = "<group>"; };
+		F2DBEA71D4366231390E0C9891780275 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A35167B34581D23DCDE99436DE6EF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F7AFB4057C0EBA11E61ED7719F0487 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DCCA518323BAC3C6F2DE5EB03F78A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E23551A970806CA6A2E31033F0ADBFD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145AE65BD12AEDF6193AC1463B53B85C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C6E2A1EA21A2E6510FC73B26B59863 /* libPods-CodeSignCall.a */,
+				488AE0BF8066A3D350E2215ADCB822DD /* libSSZipArchive.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C17CEF104526ACA07B6EEE217EC43E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C17CEF104526ACA07B6EEE217EC43E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				A44960F40D5971A9C6601ADD09720B97 /* Pods */,
+				145AE65BD12AEDF6193AC1463B53B85C /* Products */,
+				B4E3F4D248DBA5EF9CA25CFA9826B171 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A44960F40D5971A9C6601ADD09720B97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D785C45FEFF2EF162FEF746BE81B9B44 /* SSZipArchive */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4E3F4D248DBA5EF9CA25CFA9826B171 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF02EAF3F7CAAB3FFBE7FE3B6C4E867A /* Pods-CodeSignCall */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BBE125EBA31EF6D6423D80075CD5028A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43DC7658FCA0FB74DF0BC4244C94E89B /* SSZipArchive.xcconfig */,
+				4710CE738503B2A0889CF38E7F7C266F /* SSZipArchive-dummy.m */,
+				F2DBEA71D4366231390E0C9891780275 /* SSZipArchive-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		D785C45FEFF2EF162FEF746BE81B9B44 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				651AF3CC4A74E2782FFC1A272E10354A /* crypt.h */,
+				18BCF88C153D16425DBB67361F808484 /* ioapi.c */,
+				7D7277C83D82DA90B195C57CCC156DE0 /* ioapi.h */,
+				870E67E55037FF55797E5E4F15635493 /* mztools.c */,
+				E85E47FA1F949E2784497939D6E01A06 /* mztools.h */,
+				CE69A7BD5C51F8008609F02DE3B31217 /* SSZipArchive.h */,
+				4F5A48E1F826110403E2CE4F3254A45C /* SSZipArchive.m */,
+				1E70D8EB5A2EF919C10837BE60E5E60F /* unzip.c */,
+				A7179634A49BB1B2D65779E68A0783A7 /* unzip.h */,
+				8C6E36FE8585EAEE976D4E1B3188BCC5 /* zip.c */,
+				1F963DC8E3E72B1F0580D4B1F5470282 /* zip.h */,
+				BBE125EBA31EF6D6423D80075CD5028A /* Support Files */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		DF02EAF3F7CAAB3FFBE7FE3B6C4E867A /* Pods-CodeSignCall */ = {
+			isa = PBXGroup;
+			children = (
+				CD9448A6BBBC5730E92130762F320B3D /* Pods-CodeSignCall-acknowledgements.markdown */,
+				6FA5603E8CF16B34695D187061908C31 /* Pods-CodeSignCall-acknowledgements.plist */,
+				47712532B852943CD65432920E84C8EA /* Pods-CodeSignCall-dummy.m */,
+				103DC12DF50B759A48C28FF40D894897 /* Pods-CodeSignCall-frameworks.sh */,
+				4CD38898FEA7002503706F2A8A1BF048 /* Pods-CodeSignCall-resources.sh */,
+				EEC2627D776E234708A3940FC1BE8A4F /* Pods-CodeSignCall.debug.xcconfig */,
+				D4A4DDEADCB78FBFC11DE89602B72958 /* Pods-CodeSignCall.release.xcconfig */,
+			);
+			name = "Pods-CodeSignCall";
+			path = "Target Support Files/Pods-CodeSignCall";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9D91D5144FD3F0EC61AE651409314C6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AE42CFFC414C76EF65DA05B5CDF8F4 /* crypt.h in Headers */,
+				7E5B554F5D35ED29CD2C1941578ACF67 /* ioapi.h in Headers */,
+				7B52E09CA28889BA6F21D0BCDD23E64C /* mztools.h in Headers */,
+				A32CE3B88B688D722506C6F6B7EB4602 /* SSZipArchive.h in Headers */,
+				F3C0A4A791F57BC574082701BFE7E2C8 /* unzip.h in Headers */,
+				526E0935C4260A0F1CF58F8C33E2A087 /* zip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3CF119DC5968979EB7D9594DFCC1F816 /* Pods-CodeSignCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D14E6CDCA0E6E5C60DB087D0CD5A1D /* Build configuration list for PBXNativeTarget "Pods-CodeSignCall" */;
+			buildPhases = (
+				1C9656DB2664DFE476317390F04115FE /* Sources */,
+				3A35167B34581D23DCDE99436DE6EF34 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF75CD59911BEDA713902487573C271C /* PBXTargetDependency */,
+			);
+			name = "Pods-CodeSignCall";
+			productName = "Pods-CodeSignCall";
+			productReference = 17C6E2A1EA21A2E6510FC73B26B59863 /* libPods-CodeSignCall.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5B6A6811AF870D55E386502961594D2 /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048B4BDAB0F1EE0BB745BFC017F60B19 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				4D852E4A4B988E06B74CBAACD52C45E5 /* Sources */,
+				E4DCCA518323BAC3C6F2DE5EB03F78A4 /* Frameworks */,
+				9D91D5144FD3F0EC61AE651409314C6E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 488AE0BF8066A3D350E2215ADCB822DD /* libSSZipArchive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 145AE65BD12AEDF6193AC1463B53B85C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF119DC5968979EB7D9594DFCC1F816 /* Pods-CodeSignCall */,
+				F5B6A6811AF870D55E386502961594D2 /* SSZipArchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C9656DB2664DFE476317390F04115FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E795FAA3A66764283B8869E64E7296 /* Pods-CodeSignCall-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D852E4A4B988E06B74CBAACD52C45E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C485A7B0048F00E50D40458235B16966 /* ioapi.c in Sources */,
+				9320D53069A84BC3EEF855DD6B8C096C /* mztools.c in Sources */,
+				D004709B2D07DDC9E0A18CF04D40A5E1 /* SSZipArchive-dummy.m in Sources */,
+				CF9C888F99CDC32BC237FF1B8F393978 /* SSZipArchive.m in Sources */,
+				39C67E207FA7DF352CF40B712A226218 /* unzip.c in Sources */,
+				96C2D2371C41A7BF8CF38750D8997879 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF75CD59911BEDA713902487573C271C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = F5B6A6811AF870D55E386502961594D2 /* SSZipArchive */;
+			targetProxy = 60E8AEC1CC7F2887472CBD8677A8E6FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B2EE21B5D67EE2C819831CCC43832B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72C6E186EBFE87B86A0EBE23CDC5BE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC2627D776E234708A3940FC1BE8A4F /* Pods-CodeSignCall.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C07D96CC7C445E83983A6C6420BC692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B532B5DF90FF3E244F7A739DF3E4077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DC7658FCA0FB74DF0BC4244C94E89B /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC35A6495A1820BD6E26FDA91E2F7FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A4DDEADCB78FBFC11DE89602B72958 /* Pods-CodeSignCall.release.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D35F6877DCA5AD441EEEA176990BFF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DC7658FCA0FB74DF0BC4244C94E89B /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048B4BDAB0F1EE0BB745BFC017F60B19 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B532B5DF90FF3E244F7A739DF3E4077F /* Debug */,
+				D35F6877DCA5AD441EEEA176990BFF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B2EE21B5D67EE2C819831CCC43832B /* Debug */,
+				7C07D96CC7C445E83983A6C6420BC692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D14E6CDCA0E6E5C60DB087D0CD5A1D /* Build configuration list for PBXNativeTarget "Pods-CodeSignCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C6E186EBFE87B86A0EBE23CDC5BE60 /* Debug */,
+				CC35A6495A1820BD6E26FDA91E2F7FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

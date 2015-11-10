@@ -12,6 +12,13 @@
 		F7181C1F1BEB210B00758507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7181C1E1BEB210B00758507 /* Assets.xcassets */; };
 		F7181C221BEB210C00758507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7181C201BEB210C00758507 /* Main.storyboard */; };
 		F7181C2D1BEB210C00758507 /* CodeSignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7181C2C1BEB210C00758507 /* CodeSignTests.swift */; };
+		F7181C3E1BEB22A500758507 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7181C3D1BEB22A500758507 /* main.swift */; };
+		F73C8B601BF04063004431CF /* Certificate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73C8B5F1BF04063004431CF /* Certificate.m */; };
+		F73C8B811BF0687E004431CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73C8B801BF0687E004431CF /* Extensions.swift */; };
+		F73C8B831BF069DC004431CF /* DirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73C8B821BF069DC004431CF /* DirectoryManager.swift */; };
+		F73C8B861BF080EA004431CF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8B851BF080EA004431CF /* libz.tbd */; };
+		F73C8B891BF0857F004431CF /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8B881BF0857F004431CF /* SSZipArchive.framework */; };
+		F73C8B8B1BF0904F004431CF /* libSSZipArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F73C8B8A1BF0904F004431CF /* libSSZipArchive.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +31,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F7181C391BEB22A500758507 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6A99FC042F5EB583742DE5E7 /* Pods-CodeSignCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSignCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeSignCall/Pods-CodeSignCall.release.xcconfig"; sourceTree = "<group>"; };
+		9722E8108E34CBDE754E8270 /* libPods-CodeSignCall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeSignCall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7181C171BEB210B00758507 /* CodeSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7181C1A1BEB210B00758507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7181C1C1BEB210B00758507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +55,17 @@
 		F7181C281BEB210C00758507 /* CodeSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7181C2C1BEB210C00758507 /* CodeSignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSignTests.swift; sourceTree = "<group>"; };
 		F7181C2E1BEB210C00758507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7181C3B1BEB22A500758507 /* CodeSignCall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeSignCall; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7181C3D1BEB22A500758507 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F73C8B5A1BF04040004431CF /* CodeSignCall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeSignCall-Bridging-Header.h"; sourceTree = "<group>"; };
+		F73C8B5E1BF04063004431CF /* Certificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Certificate.h; sourceTree = "<group>"; };
+		F73C8B5F1BF04063004431CF /* Certificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Certificate.m; sourceTree = "<group>"; };
+		F73C8B801BF0687E004431CF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F73C8B821BF069DC004431CF /* DirectoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryManager.swift; sourceTree = "<group>"; };
+		F73C8B851BF080EA004431CF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F73C8B881BF0857F004431CF /* SSZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSZipArchive.framework; path = Pods/../build/Debug/SSZipArchive.framework; sourceTree = "<group>"; };
+		F73C8B8A1BF0904F004431CF /* libSSZipArchive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSSZipArchive.a; path = Pods/../build/Debug/libSSZipArchive.a; sourceTree = "<group>"; };
+		FDD96B6FF29524579133BF1B /* Pods-CodeSignCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSignCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeSignCall/Pods-CodeSignCall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73C8B891BF0857F004431CF /* SSZipArchive.framework in Frameworks */,
+				F73C8B861BF080EA004431CF /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,15 +85,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7181C381BEB22A500758507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73C8B8B1BF0904F004431CF /* libSSZipArchive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D588E90F9DC4543263231495 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDD96B6FF29524579133BF1B /* Pods-CodeSignCall.debug.xcconfig */,
+				6A99FC042F5EB583742DE5E7 /* Pods-CodeSignCall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F7181C0E1BEB210B00758507 = {
 			isa = PBXGroup;
 			children = (
+				F73C8B871BF080F1004431CF /* Frameworks */,
 				F7181C191BEB210B00758507 /* CodeSign */,
 				F7181C2B1BEB210C00758507 /* CodeSignTests */,
+				F7181C3C1BEB22A500758507 /* CodeSignCall */,
 				F7181C181BEB210B00758507 /* Products */,
+				D588E90F9DC4543263231495 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +122,7 @@
 			children = (
 				F7181C171BEB210B00758507 /* CodeSign.app */,
 				F7181C281BEB210C00758507 /* CodeSignTests.xctest */,
+				F7181C3B1BEB22A500758507 /* CodeSignCall */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +146,30 @@
 				F7181C2E1BEB210C00758507 /* Info.plist */,
 			);
 			path = CodeSignTests;
+			sourceTree = "<group>";
+		};
+		F7181C3C1BEB22A500758507 /* CodeSignCall */ = {
+			isa = PBXGroup;
+			children = (
+				F73C8B801BF0687E004431CF /* Extensions.swift */,
+				F7181C3D1BEB22A500758507 /* main.swift */,
+				F73C8B821BF069DC004431CF /* DirectoryManager.swift */,
+				F73C8B5E1BF04063004431CF /* Certificate.h */,
+				F73C8B5F1BF04063004431CF /* Certificate.m */,
+				F73C8B5A1BF04040004431CF /* CodeSignCall-Bridging-Header.h */,
+			);
+			path = CodeSignCall;
+			sourceTree = "<group>";
+		};
+		F73C8B871BF080F1004431CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73C8B8A1BF0904F004431CF /* libSSZipArchive.a */,
+				F73C8B881BF0857F004431CF /* SSZipArchive.framework */,
+				F73C8B851BF080EA004431CF /* libz.tbd */,
+				9722E8108E34CBDE754E8270 /* libPods-CodeSignCall.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +210,25 @@
 			productReference = F7181C281BEB210C00758507 /* CodeSignTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F7181C3A1BEB22A500758507 /* CodeSignCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7181C3F1BEB22A500758507 /* Build configuration list for PBXNativeTarget "CodeSignCall" */;
+			buildPhases = (
+				7104CE3A4E6D2FA1DB884167 /* Check Pods Manifest.lock */,
+				F7181C371BEB22A500758507 /* Sources */,
+				F7181C381BEB22A500758507 /* Frameworks */,
+				F7181C391BEB22A500758507 /* CopyFiles */,
+				55489BE4B7691577B6010087 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeSignCall;
+			productName = CodeSignCall;
+			productReference = F7181C3B1BEB22A500758507 /* CodeSignCall */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,6 +245,9 @@
 					F7181C271BEB210C00758507 = {
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = F7181C161BEB210B00758507;
+					};
+					F7181C3A1BEB22A500758507 = {
+						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
@@ -165,6 +266,7 @@
 			targets = (
 				F7181C161BEB210B00758507 /* CodeSign */,
 				F7181C271BEB210C00758507 /* CodeSignTests */,
+				F7181C3A1BEB22A500758507 /* CodeSignCall */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +290,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55489BE4B7691577B6010087 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeSignCall/Pods-CodeSignCall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7104CE3A4E6D2FA1DB884167 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7181C131BEB210B00758507 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,6 +338,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7181C2D1BEB210C00758507 /* CodeSignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7181C371BEB22A500758507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7181C3E1BEB22A500758507 /* main.swift in Sources */,
+				F73C8B831BF069DC004431CF /* DirectoryManager.swift in Sources */,
+				F73C8B811BF0687E004431CF /* Extensions.swift in Sources */,
+				F73C8B601BF04063004431CF /* Certificate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +459,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug",
+				);
 				INFOPLIST_FILE = CodeSign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuaiyong.CodeSign;
@@ -325,6 +475,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug",
+				);
 				INFOPLIST_FILE = CodeSign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuaiyong.CodeSign;
@@ -358,6 +512,39 @@
 			};
 			name = Release;
 		};
+		F7181C401BEB22A500758507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD96B6FF29524579133BF1B /* Pods-CodeSignCall.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CodeSignCall/CodeSignCall-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7181C411BEB22A500758507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A99FC042F5EB583742DE5E7 /* Pods-CodeSignCall.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CodeSignCall/CodeSignCall-Bridging-Header.h";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -377,6 +564,7 @@
 				F7181C331BEB210C00758507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7181C341BEB210C00758507 /* Build configuration list for PBXNativeTarget "CodeSignTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +573,16 @@
 				F7181C361BEB210C00758507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7181C3F1BEB22A500758507 /* Build configuration list for PBXNativeTarget "CodeSignCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7181C401BEB22A500758507 /* Debug */,
+				F7181C411BEB22A500758507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

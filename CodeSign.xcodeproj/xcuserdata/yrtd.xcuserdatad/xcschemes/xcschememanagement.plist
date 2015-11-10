@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CodeSignCall.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Tool.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>F7181C271BEB210C00758507</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7181C3A1BEB22A500758507</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7181C451BEB4B4000758507</key>
 		<dict>
 			<key>primary</key>
 			<true/>
