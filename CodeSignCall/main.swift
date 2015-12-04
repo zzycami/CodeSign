@@ -113,7 +113,10 @@ if let destinationPackagePath = directoryManager.destinationPackagePath {
     for plistFile in directoryManager.configPlists {
         if let file = plistFile.lastPathComponent() {
             let toPath = destinationPackagePath.stringByAppendingPathComponent(file)
-            try! fileManager.removeItemAtPath(toPath)
+            do {
+                try fileManager.removeItemAtPath(toPath)
+            }catch {
+            }
             do {
                 try fileManager.copyItemAtPath(plistFile, toPath: toPath)
                 print("copy plist file:\(plistFile) to \(toPath) success")
@@ -125,7 +128,10 @@ if let destinationPackagePath = directoryManager.destinationPackagePath {
     if let provisions = directoryManager.provisions {
         if let file = provisions.lastPathComponent() {
             let toPath = destinationPackagePath.stringByAppendingPathComponent(file)
-            try! fileManager.removeItemAtPath(toPath)
+            do {
+                try fileManager.removeItemAtPath(toPath)
+            }catch {
+            }
             do {
                 try fileManager.copyItemAtPath(provisions, toPath: toPath)
                 print("copy mobileprovision file:\(provisions) to \(toPath) success")
@@ -148,23 +154,19 @@ if let destinationPackagePath = directoryManager.destinationPackagePath, entitle
 print("start zip the ipa package")
 let parentPath = packageFile.stringByDeletingLastPathComponent!
 let filename = packageFile.lastPathComponent()!.stringByDeletingPathExtension()
-let resignPackageFile = parentPath.stringByAppendingPathComponent(filename! + SignAppend)
-//if SSZipArchive.createZipFileAtPath(resignPackageFile, withContentsOfDirectory: directoryManager.destinationPath) {
-//    print("success package the ipa package at:\(resignPackageFile)")
-//}else {
-//    print("package the file:\(resignPackageFile) failed")
-//    exit(0)
-//}
-system("cd \(RootDirectory)")
+let resignPackageFile = filename! + SignAppend//parentPath.stringByAppendingPathComponent(filename! + SignAppend)
+system("pwd")
+
+system("mv \(parentPath)/Payload  ./Payload")
+system("rm -rf \(parentPath)/iTunesArtwork")
+system("rm -rf \(parentPath)/META-INF")
+system("rm -rf \(parentPath)/iTunesMetadata.plist")
 let zipString = "zip -r \(resignPackageFile) ./Payload"
 print(zipString)
 system(zipString)
 
 // clear the temp file
 print("start to clear temp files")
+system("rm -rf ./Payload")
 
-do {
-    try fileManager.removeItemAtPath(directoryManager.destinationPath + "/Payload")
-}catch let error as NSError {
-    print("clear temp files failed, reason:\(error.localizedDescription)")
-}
+system("open .")
